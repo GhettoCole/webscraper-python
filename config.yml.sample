@@ -1,0 +1,9 @@
+url_type: incremental
+resource_id:
+  min: 1
+  max: 200000
+crawl_domain: example.com
+href_domain_regexp: ^https?:\/\/href\.example\.com
+pager_regexp: ^/\d+\?page=
+last_updated_at_format: "%Y年%m月%d日更新"
+last_updated_at_format_bottom: "更新：%Y年%m月%d日"

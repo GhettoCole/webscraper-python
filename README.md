@@ -10,7 +10,15 @@ $ xcode-select --install
 
 $ pyenv install 3.5.0
 
-$ pip install beautifulsoup4
+$ pip install beautifulsoup4 pyyaml
+```
+
+## Configure
+
+```bash
+$ mv config.yml.sample config.yml
+
+$ vim config.yml
 ```
 
 ## Run
